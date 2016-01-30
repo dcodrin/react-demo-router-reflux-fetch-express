@@ -1,3 +1,14 @@
+This is a basic demonstration of react. The purpose of this demo is to show how react works with reflux and how 
+reflux communicates with a server. A test server based on express is included in this repo. The server is listening 
+on port 6060. I have also included http-server in the node modules to simulate a live session.
+To test this out run npm install, npm start to compile, http-server -p "any port you wish", node 
+src/react/testServer/server.js.
+
+Try registering to "Get free e-book". If the submission is successfull you should get a "Thank you!" message and the 
+subscriber should be pushed to the server.
+
+This demo is based on my react-seed repo. See description below for more info.
+
 This is a simple react skeleton.
 It uses the following npm packages:
 1. Browserify
